@@ -1,0 +1,30 @@
+{
+  "name": "atlas-app-services-admin-api-types",
+  "version": "0.0.0",
+  "description": "Generated typings for mongodb atlas app services openapi",
+  "keywords": [
+    "atlas",
+    "appservices",
+    "openapi",
+    "typescript",
+    "types"
+  ],
+  "license": "ISC",
+  "author": "Emily M Klassen <forivall@gmail.com>",
+  "types": "index.d.ts",
+  "files": [
+    "package.json",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "generate": "openapi-typescript https://raw.githubusercontent.com/mongodb/docs-app-services/master/source/openapi-admin-v3.yaml -o index.d.ts",
+    "prepublish": "npm run generate",
+    "test": "echo 'No tests' && true"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "openapi-typescript": "^6.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
