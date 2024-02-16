@@ -1,6 +1,6 @@
 {
   "name": "atlas-app-services-admin-api-types",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generated typings for mongodb atlas app services openapi",
   "keywords": [
     "atlas",
